@@ -15,6 +15,8 @@ int main()
     scanf_s("%d", &b);
 
     if (c == 1)d = a + b;
+    else if (c==2)d=a-b;
+    else if (c==3)d=a*b;
 
 
     printf("result:%d", d);
